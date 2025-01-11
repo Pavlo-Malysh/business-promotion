@@ -4,35 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Product</title>
 </head>
 
 <body>
-    <header>
-        <a href="./index.html"><img src="./images/product-page/logo.png" alt="logo" width="40" height="36">Product</a>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./resourses.html">Resources</a></li>
+    <header class="header">
+        <div class="header-container container">
+            <nav class="header-nav">
+                <a class="logo" href="./index.html"><img src="./images/product-page/logo.png" alt="logo" width="40"
+                        height="36">Product</a>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="nav-link active" href="./index.html">Product</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="./pricing.html">Pricing</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="./customers.html">Customers</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="./resourses.html">Resources</a></li>
+                </ul>
+            </nav>
+            <ul class="header-list-btn">
+                <li class="item-btn"><button class="header-btn-sign" type="button">Sign In</button></li>
+                <li class="item-btn"><button class="header-btn-signup" type="button">Sign Up</button></li>
             </ul>
-        </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
+        </div>
     </header>
     <main>
         <section>
-            <h1>Work at the speed
-                of thought</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your
-                next user
-                experience.</p>
-            <button type="button">Get started</button>
-            <a href="">Watch the Video</a>
-            <img src="./images/product-page/hero/hero-img.png" alt="images" width="610" height="555">
+            <div class="container">
+                <h1 class="hero-title">Work at the speed
+                    of thought</h1>
+                <p class="hero-text">Tools, tutorials, design and innovation experts, all in one place! The most
+                    intuitive way to imagine
+                    your
+                    next user
+                    experience.</p>
+                <ul class="hero-list-btn">
+                    <li class="hero-list-item"><button type="button">Get started</button></li>
+                    <li class="hero-list-item"><button type="button">Watch the Video</button></li>
+                </ul>
+                <img src="./images/product-page/hero/hero-img.png" alt="images" width="610" height="555">
+            </div>
         </section>
 
         <section>
