@@ -176,6 +176,13 @@ button {
     background: transparent;
     border: none;
     padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.hero-icon-btn {
+    fill: #02897A;
 }
 
 /* SPECIFICALLY  */
@@ -272,13 +279,15 @@ button {
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 25px;
+    max-width: 224px;
 }
 
 .management-title span {
     font-weight: 600;
     color: inherit;
     font-size: 16px;
-    /* padding-bottom: 8px; */
+    margin-bottom: 8px;
+    display: inline-block;
 }
 
 
@@ -329,11 +338,14 @@ button {
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 25px;
+    max-width: 305px;
 }
 
 .customer-title span {
     font-weight: 600;
     font-size: 16px;
+    display: inline-block;
+    margin-bottom: 8px;
 }
 
 .customer-text {
@@ -405,12 +417,15 @@ button {
 .collaboration-title span {
     font-weight: 600;
     font-size: 16px;
+    display: inline-block;
+    margin-bottom: 8px;
 }
 
 .collaboration-title {
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 20px;
+    max-width: 226px;
 }
 
 .collaboration-text {
@@ -438,3 +453,36 @@ button {
     font-size: 16px;
     line-height: 1.63;
 }
+
+/* EXPERTS */
+
+.section-experts {}
+
+.container {}
+
+.experts-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.experts-text {
+    font-weight: 500;
+    line-height: 1.625;
+    text-align: center;
+}
+
+.experts-list {}
+
+.experts-list-item {}
+
+.experts-list-img {}
+
+.experts-list-text {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #2f281e;
+}
+
+.experts-btn {}
