@@ -701,8 +701,6 @@ button {
     padding-bottom: 100px;
 }
 
-.container {}
-
 .reviews-title {
     font-weight: 700;
     font-size: 32px;
@@ -760,4 +758,42 @@ button {
     line-height: 1.71429;
     letter-spacing: 0.01em;
     color: #252b42;
+}
+
+/* SUBSCRIBE */
+.section-subscribe {
+    padding-bottom: 100px;
+}
+
+.subscribe-container {
+    background-color: #02897a;
+    margin: 0 auto;
+    border-radius: 32px;
+    width: 968px;
+    display: flex;
+    gap: 80px;
+}
+
+.subscribe-item {}
+
+.subscribe-text {
+    padding: 49px 0 56px 51px;
+}
+
+.subscribe-title {
+    max-width: 440px;
+    margin-bottom: 46px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+}
+
+.subscribe-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+    border-radius: 8px;
+    padding: 10px 24px;
+    margin: 0;
 }
