@@ -1,6 +1,6 @@
 /* Footer */
 .footer {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-nav {
@@ -102,9 +102,9 @@
 .footer-btn {
     font-weight: 700;
     font-size: 16px;
-    text-align: center;
     color: #fff;
     padding: 11px 16px;
     border-radius: 4px;
     background-color: #02897a;
+    margin: 0;
 }
