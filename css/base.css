@@ -10,9 +10,8 @@ body {
     color: #22343d;
     display: flex;
     flex-direction: column;
-    min-width: 100vw;
     min-height: 100vh;
-    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 main {
@@ -44,6 +43,8 @@ a {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 button {
@@ -56,7 +57,22 @@ button {
 }
 
 .container {
-    width: 1150px;
+    width: 100%;
+    max-width: 375px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1150px;
+        padding: 0 20px;
+    }
 }

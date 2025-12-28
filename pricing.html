@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/product-page/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -33,7 +34,32 @@
                 <li class="item-btn"><button class="header-btn-sign" type="button">Sign In</button></li>
                 <li class="item-btn"><button class="header-btn-signup" type="button">Sign Up</button></li>
             </ul>
+            <button class="burger-menu" type="button" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <button class="mobile-menu-close" type="button" aria-label="Close menu">
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="./index.html">Product</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link active" href="./pricing.html">Pricing</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="./customers.html">Customers</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="./resourses.html">Resources</a></li>
+                </ul>
+            </nav>
+            <ul class="mobile-btn-list">
+                <li><button class="mobile-btn-sign" type="button">Sign In</button></li>
+                <li><button class="mobile-btn-signup" type="button">Sign Up</button></li>
+            </ul>
+        </div>
+        <div class="mobile-menu-overlay"></div>
     </header>
     <main></main>
     <footer class="footer">
@@ -108,6 +134,7 @@
             <p class="footer-text-made">Made With Love By Figmaland All Right Reserved</p>
         </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
